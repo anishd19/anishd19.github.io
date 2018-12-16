@@ -1,0 +1,47 @@
+body {
+  background-image: radial-gradient(tomato 0%, #8d021f 95%);
+  height: 100vh;
+}
+
+.atf {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.atf img {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  opacity: 0.9;
+}
+.atf h1,
+.atf h3,
+.atf h5 {
+  font-family: "Courgette", cursive;
+  letter-spacing: 0.2rem;
+  margin: 0;
+  color: floralwhite;
+  text-align: center;
+}
+.atf h1 {
+  font-size: 3rem;
+}
+.atf .social ul {
+  list-style: none;
+  padding: 0;
+}
+.atf .social ul li {
+  display: inline;
+  margin: 20px;
+}
+.atf .social ul li a {
+  text-decoration: none;
+}
+.atf .social ul li i {
+  color: floralwhite;
+}
+
+/*# sourceMappingURL=app.css.map */
