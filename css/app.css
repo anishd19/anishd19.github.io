@@ -1,6 +1,9 @@
 body {
   background-image: radial-gradient(tomato 0%, #8d021f 95%);
+  background-attachment: fixed;
   height: 100vh;
+  font-family: "Courgette", cursive;
+  color: floralwhite;
 }
 
 .atf {
@@ -24,6 +27,7 @@ body {
   letter-spacing: 0.2rem;
   margin: 0;
   color: floralwhite;
+  background-attachment: fixed;
   text-align: center;
 }
 .atf h1 {
@@ -117,6 +121,30 @@ body {
   }
   100% {
     opacity: 1;
+  }
+}
+.btf {
+  overflow: hidden;
+}
+.btf .word-sphere {
+  width: 50vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btf .word-sphere canvas {
+  margin: 0 auto;
+  position: relative;
+  right: 50px;
+}
+@media (max-width: 480px) {
+  .btf .word-sphere {
+    width: 100vw;
+    position: relative;
+    right: 5px;
   }
 }
 

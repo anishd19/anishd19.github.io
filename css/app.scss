@@ -4,7 +4,10 @@ $text-color: floralwhite;
 
 body {
     background-image: radial-gradient($primary-color 0%, $secondary-color 95%);
+    background-attachment: fixed;
     height: 100vh;
+    font-family: 'Courgette', cursive;
+    color: $text-color;
 }
 
 .atf {
@@ -26,7 +29,7 @@ body {
         font-family: 'Courgette', cursive;
         letter-spacing: 0.2rem;
         margin:0;
-        color: $text-color;
+        color: $text-color;background-attachment: fixed;
         text-align: center;
     }
     h1 {
@@ -126,3 +129,26 @@ body {
       opacity: 1;
     }
   }
+
+.btf {
+    overflow: hidden;
+    .word-sphere {
+        width: 50vw;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        canvas {
+            margin: 0 auto;
+            position: relative;
+            right: 50px;
+        }
+        @media (max-width: 480px) {
+            width: 100vw;
+            position: relative;
+            right: 5px;
+        }
+    }
+}
