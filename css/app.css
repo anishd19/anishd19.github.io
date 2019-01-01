@@ -92,6 +92,14 @@ body {
   animation-delay: 5s;
 }
 
+@media (max-width: 480px) {
+  #handle-intro,
+.social {
+    position: relative;
+    top: 70px;
+  }
+}
+
 @keyframes appearanddisappear {
   0% {
     opacity: 0;

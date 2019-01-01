@@ -97,6 +97,14 @@ body {
         }
     }
   }
+
+  #handle-intro,
+  .social {
+    @media (max-width: 480px) {
+        position: relative;
+        top: 70px;
+    }
+  }
   
   @keyframes appearanddisappear {
     0% {
